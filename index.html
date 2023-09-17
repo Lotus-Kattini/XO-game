@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XO game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game">
+      <div class="title"><span>XO</span>Game</div>
+      <div class="square" id="sq1" onclick="game(this.id)"></div>
+      <div class="square" id="sq2" onclick="game(this.id)"></div>
+      <div class="square" id="sq3" onclick="game(this.id)"></div>
+      <div class="square" id="sq4" onclick="game(this.id)"></div>
+      <div class="square" id="sq5" onclick="game(this.id)"></div>
+      <div class="square" id="sq6" onclick="game(this.id)"></div>
+      <div class="square" id="sq7" onclick="game(this.id)"></div>
+      <div class="square" id="sq8" onclick="game(this.id)"></div>
+      <div class="square" id="sq9" onclick="game(this.id)"></div>
+    </div>
+    <div class="winner" id="result">The winner is</div>
+    <button id="reload" onclick="location.reload()">Reload</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>
